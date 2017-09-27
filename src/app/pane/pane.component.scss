@@ -1,0 +1,12 @@
+:host {
+  height: 100%;
+  transform-origin:left center;
+  &.animate {
+    transition: all .3s;
+  }
+  > :first-child {
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+  }
+}

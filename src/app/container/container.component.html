@@ -1,0 +1,13 @@
+<div #carousel class="carousel">
+  <div #carouselInner class="inner">
+    <app-pane (swipeleft)="swipe($event.target, $event.type)" (swiperight)="swipe($event.target, $event.type)" class="active">
+      1
+    </app-pane>
+    <app-pane (swiperight)="swipe($event.target, $event.type)" (swipeleft)="swipe($event.target, $event.type)">
+      2
+    </app-pane>
+  </div>
+</div>
+<div #sticky class="sticky">
+
+</div>
